@@ -1,0 +1,22 @@
+{
+  "name": "belajar-nodejs-unittest",
+  "version": "1.0.0",
+  "description": "Belajar NodeJs UnitTest",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Asep Riki",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.6",
+    "babel-jest": "^29.7.0",
+    "jest": "^28.1.0"
+  }
+}
